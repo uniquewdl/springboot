@@ -1,0 +1,21 @@
+server:
+  port: 8888
+  context-path: /
+   
+helloWorld: spring Boot\u5927\u7237\u4F60\u597D
+   
+msyql:
+   jdbcName: com.mysql.jdbc.Driver
+   dbUrl: jdbc:mysql://localhost:3306/test
+   userName: root
+   password: 123456
+ 
+spring:
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: 123456
+   jpa:
+     hibernate.ddl-auto: update
+     show-sql: true
